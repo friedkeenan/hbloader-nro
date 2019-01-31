@@ -2,9 +2,6 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
-
-#define LABEL_SYMBOL(name) asm volatile("labelsym_" name "_%=: .global labelsym_" name "_%=":);
 
 #define MODULE_HBL 347
 
